@@ -90,6 +90,10 @@
     <Compile Include="Migrations\202301162024342_cambios2.designer.cs">
       <DependentUpon>202301162024342_cambios2.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\202301162027529_cambios21.cs" />
+    <Compile Include="Migrations\202301162027529_cambios21.designer.cs">
+      <DependentUpon>202301162027529_cambios21.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\Alumno.cs" />
     <Compile Include="Models\Aula.cs" />
@@ -105,6 +109,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\202301162024342_cambios2.resx">
       <DependentUpon>202301162024342_cambios2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202301162027529_cambios21.resx">
+      <DependentUpon>202301162027529_cambios21.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
