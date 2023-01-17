@@ -26,5 +26,7 @@ namespace WindowsEFEscuela.Models
         [Required]
         public string Titulo { get; set; }
 
+        public List<Alumno> alumnos { get; set; }
+
     }
 }

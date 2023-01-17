@@ -71,12 +71,13 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Dac\AbmAlumno.cs" />
     <Compile Include="Data\DBEscuelaContext.cs" />
-    <Compile Include="Form1.cs">
+    <Compile Include="frmAlumno.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form1.Designer.cs">
-      <DependentUpon>Form1.cs</DependentUpon>
+    <Compile Include="frmAlumno.Designer.cs">
+      <DependentUpon>frmAlumno.cs</DependentUpon>
     </Compile>
     <Compile Include="Migrations\202301162012015_initial.cs" />
     <Compile Include="Migrations\202301162012015_initial.designer.cs">
@@ -94,6 +95,14 @@
     <Compile Include="Migrations\202301162027529_cambios21.designer.cs">
       <DependentUpon>202301162027529_cambios21.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\202301171835463_relacionAlumnoProfesor.cs" />
+    <Compile Include="Migrations\202301171835463_relacionAlumnoProfesor.designer.cs">
+      <DependentUpon>202301171835463_relacionAlumnoProfesor.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202301171905405_id.cs" />
+    <Compile Include="Migrations\202301171905405_id.designer.cs">
+      <DependentUpon>202301171905405_id.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\Alumno.cs" />
     <Compile Include="Models\Aula.cs" />
@@ -101,6 +110,9 @@
     <Compile Include="Models\Profesor.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="frmAlumno.resx">
+      <DependentUpon>frmAlumno.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Migrations\202301162012015_initial.resx">
       <DependentUpon>202301162012015_initial.cs</DependentUpon>
     </EmbeddedResource>
@@ -112,6 +124,12 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\202301162027529_cambios21.resx">
       <DependentUpon>202301162027529_cambios21.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202301171835463_relacionAlumnoProfesor.resx">
+      <DependentUpon>202301171835463_relacionAlumnoProfesor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202301171905405_id.resx">
+      <DependentUpon>202301171905405_id.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
